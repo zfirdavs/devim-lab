@@ -30,6 +30,7 @@ func main() {
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		values := r.URL.Query()
 
+		w.Header().Set("Content-Type", "application/json")
 		// parse x from query parameters
 		x, err := castToFloat64("x", values.Get("x"))
 		if err != nil {
