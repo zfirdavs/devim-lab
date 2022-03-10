@@ -7,5 +7,5 @@ Then type:
 go run cmd/main.go
 ```
 
-The valid query parameters are `x` and `y`
+The valid query parameters are `x` and `y` <br>
 The default port is `8080`
