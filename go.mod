@@ -1,5 +1,5 @@
 module github.com/zfirdavs/devim-lab
 
-go 1.17
+go 1.18
 
-require github.com/joho/godotenv v1.4.0 // indirect
+require github.com/joho/godotenv v1.4.0
